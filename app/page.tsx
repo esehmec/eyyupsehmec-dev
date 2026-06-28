@@ -40,7 +40,7 @@ export default function Home() {
           <div className="hidden gap-6 text-sm font-medium text-slate-600 sm:flex">
             <a href="#blog" className="hover:text-blue-700">Blog</a>
             <a href="#projects" className="hover:text-blue-700">Projects</a>
-            <a href="#about" className="hover:text-blue-700">About</a>
+            <a href="about" className="hover:text-blue-700">About</a>
           </div>
         </nav>
 
@@ -152,23 +152,8 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="about" className="mx-auto max-w-6xl px-6 py-16 sm:px-8">
-        <div className="rounded-3xl bg-slate-950 p-8 text-white shadow-xl sm:p-12">
-          <p className="text-sm font-semibold uppercase tracking-wider text-blue-300">
-            About
-          </p>
-
-          <h2 className="mt-3 text-3xl font-bold sm:text-4xl">
-            I build systems that need to be reliable.
-          </h2>
-
-          <p className="mt-5 max-w-3xl text-lg leading-8 text-slate-300">
-            My focus is backend engineering: Java, Spring Boot, event-driven
-            architecture, Kafka, cloud deployments, production troubleshooting,
-            and payment infrastructure.
-          </p>
-        </div>
-      </section>
+      <a href="/about" className="hover:text-blue-700">About</a>
+      <a href="/about2" className="hover:text-blue-700">About</a>
 
       <footer className="mx-auto max-w-6xl px-6 py-10 text-sm text-slate-500 sm:px-8">
         © 2026 Eyyup Sehmec. Built with Next.js.
